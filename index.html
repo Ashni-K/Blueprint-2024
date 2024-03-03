@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <style></style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body id="page-top">
+    
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">CommuterNet</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">Post Your Ride</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whycarpool.html">Why Carpool?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="dropdown" style="max-width: 800px;">
+        <button class="dropbtn">Account</button>
+        <div class="dropdown-content">
+          <a href="#">My Groups</a>
+          <a href="#">Past Rides</a>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </nav>
+    <!--end of nav bar-->
+    
+    <!--header-->
+    <section class="bg-image">
+      <!--make a ride-->
+      <div class="container px-4 text-center" style="max-width: 600px;">
+        <head>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
+          <style>
+          body {
+            font-family: "Lexend", sans-serif;
+          }
+          </style>
+          </head>
+        <section style="padding-top: 5px;">
+        <h1 class="fw-bolder">
+          Connecting Communities Ride by Ride
+        </h1>
+        <div class="row g-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="To:"
+            aria-label="To"
+          />
+        </div>
+        <div class="row g-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="From:"
+            aria-label="From"
+          />
+        </div>
+        <div class="row g-3">
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Depart Time:"
+            aria-label="Depart_Time"
+        />
+        </div>
+        <div class="row g-3">
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Arrival Time:"
+            aria-label="Arrival_Time"
+        />
+        </div>
+        <div class="row g-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Date:"
+            aria-label="Date"
+          />
+        </div>
+        <div class="row g-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Number of passengers:"
+            aria-label="#passengers"
+          />
+        </div>
+        <div style="padding-bottom: 10px;">
+        <a class="btn btn-lg btn-light" href="rides.html">Find Rides</a>
+        </div>
+      </section>
+      
+  <!-- A button to open the popup form -->
+  
+  <button class="open-button" onclick="openForm()">Sign Up Here!</button>
+
+  <!-- The form -->
+  <div class="form-popup" id="myForm">
+    <script src="app.js"></script>
+    <form action="/action_page.php" class="form-container">
+      <h2>Create Your Account or Login</h2>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <a class="nav-link" href="index.html" >Already have an account? <br> Just log in!</a>
+
+      <br>
+
+      <button type="submit" class="btn">Sign Up</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  </body>
+  <br>
+    <!--second section - white area-->
+    <section>
+        <h2>A tool designed to connect neighborhoods and communities together via convenient carpooling</h2>
+    </section>
+  </div>
+  
+</html>
